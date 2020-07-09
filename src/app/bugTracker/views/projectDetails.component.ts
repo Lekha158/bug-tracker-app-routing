@@ -3,7 +3,7 @@ import { ProjectOperationsService } from '../services/projectOperations.service'
 import { Router } from '@angular/router';
 
 @Component({
-	selector : 'project-details',
+	selector : 'project-details-app',
 	template : `<div class="details">
                     <section class="edit">
                     <label for="">Project Name :</label>
