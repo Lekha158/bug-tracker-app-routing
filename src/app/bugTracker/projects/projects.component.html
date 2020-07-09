@@ -1,0 +1,14 @@
+
+<section class="list">
+    <ol>
+        <li *ngFor="let project of projects">
+			<span class="bugname">{{project.name}}</span>
+			<div>
+				 <input type="button" value="Remove" (click)="onRemoveClick(project)">
+			 </div>
+
+		</li>
+		<a [routerLink]="['/bugs']" > Home </a>
+
+    </ol>
+</section>
